@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Http配置类
- * @author little-eight
+ * @author huangjuguan
  */
 public class OkHttpConfig {
 

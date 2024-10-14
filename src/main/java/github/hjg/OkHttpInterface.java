@@ -9,7 +9,7 @@ import java.util.Map;
 
 /**
  * Http请求接口
- * @author little-eight
+ * @author huangjuguan
  */
 public interface OkHttpInterface {
 

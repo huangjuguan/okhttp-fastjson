@@ -3,7 +3,7 @@ package github.hjg;
 
 /**
  * 接口入口
- * @author little-eight
+ * @author huangjuguan
  */
 public class JsonInterface extends AbstractOkHttpInterface{
 

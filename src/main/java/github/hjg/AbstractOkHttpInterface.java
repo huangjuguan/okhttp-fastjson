@@ -8,14 +8,14 @@ import java.util.Map;
 
 /**
  * Http请求方法抽象实现
- * 
- * @author little-eight
+ *
+ * @author huangjuguan
  */
 public abstract class AbstractOkHttpInterface implements OkHttpInterface {
-	
+
 	/**
 	 * 自定义请求
-	 * 
+	 *
 	 * @param request
 	 * @param responseType
 	 * @param <T>
@@ -44,7 +44,7 @@ public abstract class AbstractOkHttpInterface implements OkHttpInterface {
 
 	/**
 	 * 自定义请求
-	 * 
+	 *
 	 * @param request
 	 * @param responseType
 	 * @param okHttpConfig
@@ -74,10 +74,10 @@ public abstract class AbstractOkHttpInterface implements OkHttpInterface {
         ObjectExtractor<T> extractor = new ObjectExtractor<>(fastJsonHelper(), typeRef);
         return handleResponse(okHttpConfig, request, extractor);
     }
-	
+
 	/**
 	 * GET
-	 * 
+	 *
 	 * @param url
 	 * @param responseType
 	 * @param uriVariables
@@ -110,7 +110,7 @@ public abstract class AbstractOkHttpInterface implements OkHttpInterface {
 
 	/**
 	 * GET
-	 * 
+	 *
 	 * @param url
 	 * @param responseType
 	 * @param uriVariables
@@ -141,10 +141,10 @@ public abstract class AbstractOkHttpInterface implements OkHttpInterface {
         ObjectExtractor<T> extractor = new ObjectExtractor<>(fastJsonHelper(), typeRef);
         return handleResponse(null, request, extractor);
     }
-    
+
 	/**
 	 * GET
-	 * 
+	 *
 	 * @param url
 	 * @param responseType
 	 * @param okHttpConfig
@@ -181,7 +181,7 @@ public abstract class AbstractOkHttpInterface implements OkHttpInterface {
 
 	/**
 	 * GET
-	 * 
+	 *
 	 * @param url
 	 * @param responseType
 	 * @param okHttpConfig
@@ -218,7 +218,7 @@ public abstract class AbstractOkHttpInterface implements OkHttpInterface {
 
 	/**
 	 * GET
-	 * 
+	 *
 	 * @param url
 	 * @param responseType
 	 * @param uriVariables
@@ -250,10 +250,10 @@ public abstract class AbstractOkHttpInterface implements OkHttpInterface {
         ObjectExtractor<T> extractor = new ObjectExtractor<>(fastJsonHelper(), typeRef);
         return handleResponse(null, request, extractor);
     }
-	
+
 	/**
 	 * GET
-	 * 
+	 *
 	 * @param url
 	 * @param responseType
 	 * @param okHttpConfig
@@ -292,7 +292,7 @@ public abstract class AbstractOkHttpInterface implements OkHttpInterface {
 
 	/**
 	 * GET
-	 * 
+	 *
 	 * @param url
 	 * @param responseType
 	 * @param uriVariables
@@ -329,7 +329,7 @@ public abstract class AbstractOkHttpInterface implements OkHttpInterface {
 
 	/**
 	 * GET
-	 * 
+	 *
 	 * @param url
 	 * @param responseType
 	 * @param okHttpConfig
@@ -368,7 +368,7 @@ public abstract class AbstractOkHttpInterface implements OkHttpInterface {
 
 	/**
 	 * POST
-	 * 
+	 *
 	 * @param url
 	 * @param responseType
 	 * @param requestBody
@@ -401,7 +401,7 @@ public abstract class AbstractOkHttpInterface implements OkHttpInterface {
 
 	/**
 	 * POST
-	 * 
+	 *
 	 * @param url
 	 * @param responseType
 	 * @param okHttpConfig
@@ -434,10 +434,10 @@ public abstract class AbstractOkHttpInterface implements OkHttpInterface {
         ObjectExtractor<T> extractor = new ObjectExtractor<>(fastJsonHelper(), typeRef);
         return handleResponse(okHttpConfig, request, extractor);
     }
-    
+
 	/**
 	 * POST
-	 * 
+	 *
 	 * @param url
 	 * @param headers
 	 * @param responseType
@@ -471,10 +471,10 @@ public abstract class AbstractOkHttpInterface implements OkHttpInterface {
         ObjectExtractor<T> extractor = new ObjectExtractor<>(fastJsonHelper(), typeRef);
         return handleResponse(null, request, extractor);
     }
-	
+
     /**
 	 * POST
-	 * 
+	 *
 	 * @param url
 	 * @param headers
 	 * @param responseType
@@ -545,7 +545,7 @@ public abstract class AbstractOkHttpInterface implements OkHttpInterface {
         ObjectExtractor<T> extractor = new ObjectExtractor<>(fastJsonHelper(), typeRef);
         return handleResponse(null, request, extractor);
     }
-	
+
     /**
      * POST
      * @param url
@@ -584,10 +584,10 @@ public abstract class AbstractOkHttpInterface implements OkHttpInterface {
         ObjectExtractor<T> extractor = new ObjectExtractor<>(fastJsonHelper(), typeRef);
         return handleResponse(null, request, extractor);
     }
-    
+
 	/**
 	 * POST
-	 * 
+	 *
 	 * @param url
 	 * @param headers
 	 * @param responseType
@@ -664,10 +664,10 @@ public abstract class AbstractOkHttpInterface implements OkHttpInterface {
         ObjectExtractor<T> extractor = new ObjectExtractor<>(fastJsonHelper(), typeRef);
         return handleResponse(null, request, extractor);
     }
-	
+
 	/**
 	 * POST
-	 * 
+	 *
 	 * @param url
 	 * @param headers
 	 * @param responseType
@@ -705,7 +705,7 @@ public abstract class AbstractOkHttpInterface implements OkHttpInterface {
         ObjectExtractor<T> extractor = new ObjectExtractor<>(fastJsonHelper(), typeRef);
         return handleResponse(okHttpConfig, request, extractor);
     }
-    
+
     /**
      * POST
      * @param url
@@ -753,7 +753,7 @@ public abstract class AbstractOkHttpInterface implements OkHttpInterface {
 
 	/**
 	 * handleResponse
-	 * 
+	 *
 	 * @param request
 	 * @param extractor
 	 * @param <T>

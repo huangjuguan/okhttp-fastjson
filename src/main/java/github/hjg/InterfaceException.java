@@ -3,7 +3,7 @@ package github.hjg;
 /**
  * 任务异常，用于抛出接口方错误导致的异常。
  *
- * @author little-eight
+ * @author huangjuguan
  */
 public class InterfaceException extends Exception{
 

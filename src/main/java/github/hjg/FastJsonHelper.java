@@ -5,7 +5,7 @@ import com.alibaba.fastjson.TypeReference;
 
 /**
  * json解析类
- * @author little-eight
+ * @author huangjuguan
  */
 public interface FastJsonHelper {
 

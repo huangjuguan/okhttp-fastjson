@@ -10,7 +10,7 @@ import java.util.Map;
 
 /**
  * Http URL 参数展开工具
- * @author little-eight
+ * @author huangjuguan
  */
 public class StringUriTemplateUtil {
 

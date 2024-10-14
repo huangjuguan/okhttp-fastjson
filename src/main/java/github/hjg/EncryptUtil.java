@@ -13,7 +13,7 @@ import java.security.SecureRandom;
 
 /**
  * 各种加密工具.
- * @author little-eight
+ * @author huangjuguan
  */
 public class EncryptUtil {
 

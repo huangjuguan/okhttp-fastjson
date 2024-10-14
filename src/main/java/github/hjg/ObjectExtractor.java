@@ -7,7 +7,7 @@ import java.io.IOException;
 
 /**
  * 实体请求结果抓取器
- * @author little-eight
+ * @author huangjuguan
  */
 public class ObjectExtractor<T> {
 

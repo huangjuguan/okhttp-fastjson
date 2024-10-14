@@ -10,8 +10,8 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Http请求工具
- * 
- * @author little-eight
+ *
+ * @author huangjuguan
  */
 public class OkHttpHelper {
 
@@ -35,7 +35,7 @@ public class OkHttpHelper {
 
 	/**
 	 * 自定义OkHttpClient配置
-	 * 
+	 *
 	 * @return
 	 */
 	public OkHttpHelper(OkHttpConfig httpConfig) {
@@ -48,7 +48,7 @@ public class OkHttpHelper {
 
 	/**
 	 * 执行请求
-	 * 
+	 *
 	 * @param request
 	 * @return
 	 * @throws IOException
